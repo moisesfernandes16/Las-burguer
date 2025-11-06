@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-image: url(images/chalkboard.jpg);
+    width: 100vw;
+    max-width: 470px;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.formaTopo {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.topo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: 470px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo {
+    width: 150px;
+    display: block;
+    margin: -80px auto 0 auto;
+    position: relative;
+    z-index: 1;
+
+}
+
+input {
+    margin: 10px;
+    outline: white;
+    width: 270px;
+    padding: 7px;
+    border-radius: 25px;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    border: none;
+    
+}
+
+
+#search {   
+    position: relative;
+    right:100px;
+    z-index: 999;
+}
+
+#pesquisa {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+     margin: 1  px;
+    outline: white;
+    width: 280px;
+    padding: 7px;
+    border-radius: 25px;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    flex: 1 1 0px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px #000000;
+    outline: none ;
+
+}
+
+#fundoLanche {
+    width: 40vw;
+    position: absolute;
+    transform: rotate(-20deg);
+    right: 8vw;
+    bottom: 70vw;
+    z-index: 0;
+}
+
+#fundoMaracuja {
+    width: 35vw;
+    position: absolute;
+    left: -5vw;
+    bottom: -110vw;
+    z-index: 0;
+}
+
+#fundoNuggets {
+    width: 40vw;
+    position: absolute;
+    right: 1vw;
+    bottom: -190vw;
+    z-index: 0;
+}
+
+#artezanais1,
+#artezanais2 {
+    width: 160px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Cardapio {
+    width: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#lanches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+
+#Drinks {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.drink {
+    margin: 15px;
+}
+
+.porções {
+    width: 150px;
+
+}
+
+#Porções1 {
+    width: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+
+#Porções2 {
+    width: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+article, h1{
+    padding: 25px;
+    width: 250px;
+    text-align: center;
+    color: white;
+}
+.titulo1 {
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    position: static;
+    z-index: 4;
+
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+.chefs1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 215px;
+    height:210px;
+    background-color: #FFBC51;
+    border-radius: 25px;
+}
+.chefs2{
+    width: 215px;
+    height:330px;
+    background-color: #FFBC51;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.chefs3{
+    width: 215px;
+    height:400px;
+    background-color: #FFBC51;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+#card{
+    margin-top: 15px    ;
+    border-radius: 25px;
+    border: #000 solid 1px;
+}
