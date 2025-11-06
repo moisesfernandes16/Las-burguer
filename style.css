@@ -233,3 +233,7 @@ article, h1{
     border-radius: 25px;
     border: #000 solid 1px;
 }
+#btnLanches{
+    background-color: transparent;
+    border: none;
+}
