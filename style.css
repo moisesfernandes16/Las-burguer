@@ -70,7 +70,6 @@ input {
 }
 
 #pesquisa {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,7 +83,7 @@ input {
     z-index: 99;
     position: fixed;
     top: 10px;
-    right: 20px;
+    left: 10vw;
     flex: 1 1 0px;
     border: 2px solid transparent;
     box-shadow: 0 0 0 2px #000000;
@@ -93,10 +92,10 @@ input {
 }
 
 #fundoLanche {
-    width: 40vw;
+    width: 80vw;
     position: absolute;
     transform: rotate(-20deg);
-    right: 8vw;
+    right: -150px;
     bottom: 70vw;
     z-index: 0;
 }
@@ -140,8 +139,7 @@ input {
     justify-content: center;
     align-items: center;
     position: relative;
-
-
+    margin-left: 15px;
 }
 
 #Drinks {
