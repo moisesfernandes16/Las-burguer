@@ -95,7 +95,7 @@ input {
 #fundoLanche {
     width: 40vw;
     position: absolute;
-    right: -3vw;
+    right: 1vw;
     bottom: 72vw;
     z-index: 0;
 }
