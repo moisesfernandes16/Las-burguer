@@ -59,13 +59,14 @@ input {
     z-index: 99;
     position: fixed;
     border: none;
-    
+
 }
 
 
-#search {   
+#search {
     position: relative;
-    right: 100px;;
+    right: 100px;
+    ;
     z-index: 999;
 }
 
@@ -75,7 +76,7 @@ input {
     align-items: center;
     justify-content: center;
     gap: 8px;
-     margin: 1  px;
+    margin: 1 px;
     outline: white;
     width: 280px;
     padding: 7px;
@@ -88,7 +89,7 @@ input {
     flex: 1 1 0px;
     border: 2px solid transparent;
     box-shadow: 0 0 0 2px #000000;
-    outline: none ;
+    outline: none;
 
 }
 
@@ -139,7 +140,7 @@ input {
     justify-content: center;
     align-items: center;
     position: relative;
-    
+
 }
 
 #Drinks {
@@ -179,12 +180,14 @@ input {
     margin: 5px;
 }
 
-article, h1{
+article,
+h1 {
     padding: 25px;
     width: 250px;
     text-align: center;
     color: white;
 }
+
 .titulo1 {
     text-shadow:
         -1px -1px 0 #000,
@@ -198,42 +201,79 @@ article, h1{
     z-index: 4;
 
 }
-#cards{
+
+#cards {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 30px;
-    
+
 }
-.chefs1{
+
+.chefs1 {
     display: flex;
     justify-content: center;
     align-items: start;
     width: 215px;
-    height:210px;
+    height: 210px;
     background-color: #FFBC51;
     border-radius: 25px;
 }
-.chefs2{
+
+.chefs2 {
     width: 215px;
-    height:330px;
+    height: 330px;
     background-color: #FFBC51;
     border-radius: 25px;
     margin-top: 10px;
 }
-.chefs3{
+
+.chefs3 {
     width: 215px;
-    height:400px;
+    height: 400px;
     background-color: #FFBC51;
     border-radius: 25px;
     margin-top: 10px;
 }
-#card{
-    margin-top: 15px    ;
+
+#card {
+    margin-top: 15px;
     border-radius: 25px;
     border: #000 solid 1px;
 }
-#btnLanches{
+
+.produtos {
     background-color: transparent;
     border: none;
+}
+
+#modalProduto {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+#conteudoModal {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 90vw;
+    box-shadow: 0 4px 24px #0004, 0 1.5px 4px #0002;
+    text-align: center;
+    position: fixed;
+    top: 100px;
+    left: 19px;
+}
+#fecharModal{
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    right: 40px;
 }

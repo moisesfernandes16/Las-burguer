@@ -24,47 +24,67 @@
                 <path
                     d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
             </svg> <input type="text" placeholder="O que você procura">
+
         </div>
-        <div id="modalProduto">
+        <div id="modalProduto" style="display: none;">
             <div id="conteudoModal">
-                <button id="fecharModal"></button>
-                <h2></h2>
-                <img src="" alt="">
-                <p></p>
+                <button id="fecharModal">X</button>
+                <h2 id="tituloProduto"></h2>
+                <img id="imgProduto" src="" alt="">
+                <p id="descProduto"></p>
             </div>
         </div>
         <h1 class="titulo1">Lanches Artezanais</h1>
         <section id="Cardapio">
             <section id="lanches">
                 <section id="artezanais1">
-                    <button class="produtos" id="btnLanches"><img src="images/Cardápio/La cremoso.png" alt=""></button>
-                    <button class="produtos" id="btnLanches"><img src="images/Cardápio/La nugget.png" alt=""></button>
-                    <button class="produtos" id="btnLanches"><img src="images/Cardápio/La Monstro.png" alt=""></button>
+                    <button data-nome="La Cremoso"  data-foto="image/Cardapio/artezanal hamburguer 1.png"
+                        data-descricao="hambúrguer artesanal feito com pão brioche selado na manteiga, burger de carne 180g, queijo cheddar cremoso, bacon crocante, tomate fresco, alface e maionese especial da casa. Uma explosão de sabor e cremosidade em cada mordida!"
+                        class="produtos"><img src="images/Cardápio/La cremoso.png" alt=""></button>
+
+                    <button data-nome="La nuggets"
+                        data-descricao="Hambúrguer, nuggets de frango, cheddar, molho especial, pão brioche."
+                        class="produtos"><img src="images/Cardápio/La nugget.png" alt=""></button>
+                    <button data-nome="La Monstro"
+                        data-descricao="Duas carnes de hambúrguer bovino, blend artesanal (temperadas com sal grosso e pimenta)"
+                        class="produtos"><img src="images/Cardápio/La Monstro.png" alt=""></button>
                 </section>
                 <section id="artezanais2">
-                    <button class="produtos" id="btnLanches"><img src="images/Cardápio/La Cheche.png" alt=""></button>
-                    <button class="produtos" id="btnLanches"><img src="images/Cardápio/La bacon.png" alt=""></button>
-                    <button class="produtos" id="btnLanches"><img src="images/Cardápio/Combo casal.png" alt=""></button>
+                    <button data-nome="La Chehe"
+                        data-descricao="Hambúrguer, cheddar, carne desfiada ao molho, anéis de cebola empanados, cebola roxa, pão brioche."
+                        class="produtos"><img src="images/Cardápio/La Cheche.png" alt=""></button>
+                    <button data-nome="La bacon"
+                        data-descricao="Hambúrguer duplo, cheddar derretido, bacon em tiras, maionese, pão brioche macio e levemente tostado."
+                        class="produtos"><img src="images/Cardápio/La bacon.png" alt=""></button>
+                    <button data-nome="Combo Casal" data-descricao="" class="produtos"><img
+                            src="images/Cardápio/Combo casal.png" alt=""></button>
                 </section>
 
             </section>
 
             <h1 class="titulo 2">Drinks</h1>
             <section id="Drinks">
-                <button id="btnLanches"><img class="drink" src="images/Cardápio/Frutas Vermelhas.png" alt=""></button>
-                <button id="btnLanches"><img class="drink" src="images/Cardápio/Cerveja.png" alt=""></button>
-                <button id="btnLanches"><img class="drink" src="images/Cardápio/Refrigerante.png" alt=""></button>
+                <button data-nome="Coquetel frutas Vermelhas"
+                    data-descricao="Morango, amora, framboesa, mirtilo, suco de limão, xarope de açúcar, vodka ou espumante, gelo."
+                    class="produtos"><img class="drink" src="images/Cardápio/Frutas Vermelhas.png" alt=""></button>
+                <button data-nome="Cervejas"
+                    data-descricao="Promo especial de long neck a partir de R$ 8,00. Ideal para reunir amigos e deixar o happy hour mais animado."
+                    class="produtos"><img class="drink" src="images/Cardápio/Cerveja.png" alt=""></button>
+                <button data-nome="Refrigerantes"
+                    data-descricao="Refrigerante gelado a partir de R$ 6,00. Escolha entre os sabores clássicos para acompanhar seu lanche!"
+                    class="produtos" ><img class="drink" src="images/Cardápio/Refrigerante.png"
+                        alt=""></button>
 
             </section>
             <h1 class="titulo3">Porções</h1>
 
             <section id="Porções1">
-                <button class="produtos" id="btnLanches"><img src="images/Cardápio/Frango.png" alt="" class="porções"></button>
-                <button class="produtos" id="btnLanches"><img src="images/Cardápio/aneis de Cebola.png" alt="" class="porções"></button>
+                <button class="produtos"><img src="images/Cardápio/Frango.png" alt="" class="porções"></button>
+                <button class="produtos"><img src="images/Cardápio/aneis de Cebola.png" alt="" class="porções"></button>
             </section>
             <section id="Porções2">
-                <button class="produtos" id="btnLanches"><img src="images/Cardápio/Fritas.png" alt="" class="porções"></button>
-                <button class="produtos" id="btnLanches"><img src="images/Cardápio/Camarão.png" alt="" class="porções"></button>
+                <button class="produtos"><img src="images/Cardápio/Fritas.png" alt="" class="porções"></button>
+                <button class="produtos"><img src="images/Cardápio/Camarão.png" alt="" class="porções"></button>
             </section>
             <article>
                 <h1>Sobre Nós</h1>
