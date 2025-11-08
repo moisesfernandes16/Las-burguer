@@ -31,6 +31,7 @@ body {
 }
 
 .container {
+    
     width: 100%;
     max-width: 470px;
     height: auto;
@@ -181,11 +182,14 @@ input {
 }
 
 article,
-h1 {
-    padding: 25px;
+h1 { padding: 15px;
     width: 250px;
     text-align: center;
     color: white;
+    font-family: "Lato" ,sans-serif;
+}
+h2{
+    font-family: 'Lato', sans-serif;
 }
 
 .titulo1 {
@@ -234,6 +238,7 @@ h1 {
     background-color: #FFBC51;
     border-radius: 25px;
     margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 #card {
@@ -276,4 +281,18 @@ h1 {
     border: none;
     position: fixed;
     right: 40px;
+    width: 40px;
+    height: 30px;
+}
+#imgProduto{
+    width: 100px; 
+    padding: 10px;
+    margin: 10px;
+}
+.sobreNos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     font-family: "Nunito Sans", sans-serif;
 }
