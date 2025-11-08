@@ -31,7 +31,6 @@ body {
 }
 
 .container {
-    
     width: 100%;
     max-width: 470px;
     height: auto;
@@ -134,6 +133,9 @@ input {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    max-width: 470px;
+    box-sizing: border-box;
 }
 
 #lanches {
@@ -182,13 +184,15 @@ input {
 }
 
 article,
-h1 { padding: 15px;
+h1 {
+    padding: 15px;
     width: 250px;
     text-align: center;
     color: white;
-    font-family: "Lato" ,sans-serif;
+    font-family: "Lato", sans-serif;
 }
-h2{
+
+h2 {
     font-family: 'Lato', sans-serif;
 }
 
@@ -250,7 +254,11 @@ h2{
 .produtos {
     background-color: transparent;
     border: none;
-    max-width: 180px;
+    max-width: 100%;
+    width: 180px;
+    height: auto;
+    display: block;
+    
 }
 
 #modalProduto {
@@ -277,7 +285,8 @@ h2{
     top: 100px;
     left: 19px;
 }
-#fecharModal{
+
+#fecharModal {
     background-color: transparent;
     border: none;
     position: fixed;
@@ -285,15 +294,19 @@ h2{
     width: 40px;
     height: 30px;
 }
-#imgProduto{
-    width: 100px; 
+
+#imgProduto {
+    width: 100px;
     padding: 10px;
     margin: 10px;
+    max-width: 200px;
+    height: auto;
 }
-.sobreNos{
+
+.sobreNos {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-     font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
 }
