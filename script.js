@@ -5,7 +5,7 @@ const descricao = document.getElementById('descProduto');
 const search = document.getElementById('campoPesquisa');
 const resultados = document.querySelector('.resultadosPesquisa')
 const produto = document.querySelectorAll('.produtos')
-const buttons = document.querySelectorAll('.resultLanche0 button, .resultLanche1 button, .resultDrinks button, .resultPorção button');
+const buttons = document.querySelectorAll('.resultLanche0 button, #laCremoso button,#comboCasal button,.resultLanche1 button, .resultDrinks button, .resultPorção button');
 const produtosInfo = Array.from(produto).map(produto => ({
     nome: produto.dataset.nome,
     descricao: produto.dataset.descricao,
@@ -66,6 +66,7 @@ resultados.addEventListener('click', (event) => {
 
         const produtoOriginal = Array.from(produto).find(p => p.dataset.nome === nome);
         if (produtoOriginal) {
+            nome.textContent = produtoOriginal.dataset.nome;
             descricao.textContent = produtoOriginal.dataset.descricao;
             modal.style.display = "block"
         }
