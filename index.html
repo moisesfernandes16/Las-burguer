@@ -25,8 +25,70 @@
                 id="search" viewBox="0 0 16 16">
                 <path
                     d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-            </svg> <input type="text" placeholder="O que você procura" id="campoPesquisa">
-            <div class="resultadosPesquisa" style="display: block;"></div>
+            </svg> <input id="campoPesquisa" type="text" placeholder="O que você procura">
+
+            <div class="resultadosPesquisa" style="display: block;">
+                <div class="resultLanche0">
+                    <button id="laCremoso">
+                        <img src="images/artezanal hamburguer 1.png" alt="">
+                        <h4>La Cremoso</h4>
+                    </button>
+                    <button id="comboCasal">
+                        <img src="images/artezanal hamburguer 2.png" alt="">
+                        <h4>Combo casal</h4>
+                    </button>
+                    <button id="laNugget">
+                        <img src="images/artezanal nuggets.png" alt="">
+                        <h4>La nugget</h4>
+                    </button>
+                </div>
+                <div class="resultLanche1">
+                    <button id="laBacon">
+                        <img src="images/artezanal bacon.png" alt="">
+                        <h4>La bacon</h4>
+                    </button>
+                    <button id="laCheche">
+                        <img src="images/artezanal acebolado.png" alt="">
+                        <h4>La Cheche</h4>
+                    </button>
+                    <button id="laMonstro">
+                        <img src="images/artezanal churrasco.png" alt="">
+                        <h4>La Monstro</h4>
+                    </button>
+                </div>
+                <div class="resultDrinks">
+                    <button id="coquetel">
+                        <img src="images/coquetel.png" alt="">
+                        <h4>Coquetel de Frutas</h4>
+                    </button>
+                    <button id="Cervejas">
+                        <img src="images/Cervejas.png" alt="Cerveja">
+                        <h4>Cervejas</h4>
+                    </button>
+                    <button id="Refrigerante">
+                        <img src="images/Refrigerante.png" alt="">
+                        <h4>Refrigerante</h4>
+                    </button>
+                </div>
+                <div class="resultPorção">
+                    <button id="porçãoBatatas">
+                        <img src="images/Batatas.png" alt="">
+                        <h4>Batatas Fritas</h4>
+                    </button>
+                    <button id="porçãoFrango">
+                        <img src="images/Frango.png" alt="">
+                        <h4>Frango</h4>
+                    </button>
+                    <button id="porçãoCamarão">
+                        <img src="images/Camarão.png" alt="">
+                        <h4>Camarão</h4>
+                    </button>
+                    <button id="porçãoCebola">
+                        <img src="images/Cebolas.png" alt="">
+                        <h4>Aneis De Cebola</h4>
+                    </button>
+                </div>
+            </div>
         </div>
         <div id="modalProduto" style="display: none;">
             <div id="conteudoModal">
@@ -35,10 +97,10 @@
                 <p id="descProduto"></p>
             </div>
         </div>
-        <h1 class="titulo1">Lanches Artezanais</h1>
+        <h1 class="titulo1">Lanches </h1>
         <section id="Cardapio">
             <section id="lanches">
-                <section id="artezanais1">
+                <section id="artanais1">
                     <button data-nome="La Cremoso" data-foto="images/artezanal hamburguer 1.png"
                         data-descricao="Hambúrguer artesanal feito com pão brioche selado na manteiga, burger de carne 180g, creme de cheddar artesanal, bacon crocante, tomate fresco, alface americana e maionese especial da casa. Uma explosão de sabor e cremosidade em cada mordida!"
                         class="produtos"><img src="images/Cardápio/La cremoso.png" alt=""></button>
@@ -50,7 +112,7 @@
                         data-descricao="O mais top da casa: pão brioche, duas carnes de hambúrguer bovino artesanal, presunto, queijo muçarela, bacon crocante, ovo, catupiry cremoso, alface, tomate, cebola e molho especial. Lanche gigante para os fortes!"
                         class="produtos"><img src="images/Cardápio/La Monstro.png" alt=""></button>
                 </section>
-                <section id="artezanais2">
+                <section id="artanais2">
                     <button data-nome="La Chehe" data-foto="images/artezanal acebolado.png"
                         data-descricao="Hambúrguer artesanal, cheddar derretido, carne desfiada ao molho, anéis de cebola empanados, cebola roxa, pão brioche macio. Sabor e textura marcantes em cada detalhe!"
                         class="produtos"><img src="images/Cardápio/La Cheche.png" alt=""></button>

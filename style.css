@@ -78,7 +78,7 @@ input {
     gap: 8px;
     margin: 1 px;
     outline: white;
-    width: 250px;
+    width: 290px;
     height:50px;
     padding: 7px;
     border-radius: 25px;
@@ -91,9 +91,7 @@ input {
     border: 2px solid transparent;
     box-shadow: 0 0 0 2px #000000;
     outline: none;
-
 }
-
 #fundoLanche {
     width: 40vw;
     position: absolute;
@@ -118,8 +116,8 @@ input {
     z-index: 0;
 }
 
-#artezanais1,
-#artezanais2 {
+#1,
+#artesanais2 {
     width: 160px;
     margin-top: 10px;
     display: flex;
@@ -311,16 +309,39 @@ h2 {
     flex-direction: column;
     font-family: "Nunito Sans", sans-serif;
 }
-.resultadosPesquisa {
+.resultadosPesquisa{
     position: absolute;
-    top: 40px;
+    top: 50px;
     left: 0;
     background: #fff;
     width: 100%;
-    max-height: 250px;
+    max-height: 280px;
     overflow-y: auto;
     border-radius: 8px;
     z-index: 1000;
     box-shadow: 0 2px 8px #0002;
     font-family: 'Lato', sans-serif;
+    /* overflow-x:hidden ; */
+    display: flex;
+    justify-content: center;
+    
+
+}
+.resultadosPesquisa img,button{
+    width: 65px;
+    max-height: auto;
+    border: none;
+    
+   
+}
+.resultLanche0,
+.resultLanche1,
+.resultDrinks,
+.resultPorção{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+h4{
+font-family: "", sans-serif;
 }
