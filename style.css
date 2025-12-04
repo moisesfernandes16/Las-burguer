@@ -79,7 +79,7 @@ input {
     margin: 1 px;
     outline: white;
     width: 290px;
-    height:50px;
+    height: 50px;
     padding: 7px;
     border-radius: 25px;
     text-align: center;
@@ -92,6 +92,7 @@ input {
     box-shadow: 0 0 0 2px #000000;
     outline: none;
 }
+
 #fundoLanche {
     width: 40vw;
     position: absolute;
@@ -222,7 +223,7 @@ h2 {
     justify-content: center;
     align-items: start;
     width: 215px;
-    height: 210px;
+    height: 330px;
     background-color: #FFBC51;
     border-radius: 25px;
 }
@@ -245,6 +246,7 @@ h2 {
 }
 
 #card {
+    height: 289px;
     margin-top: 15px;
     border-radius: 25px;
     border: #000 solid 1px;
@@ -257,7 +259,7 @@ h2 {
     width: 180px;
     height: auto;
     display: block;
-    
+
 }
 
 #modalProduto {
@@ -309,7 +311,8 @@ h2 {
     flex-direction: column;
     font-family: "Nunito Sans", sans-serif;
 }
-.resultadosPesquisa{
+
+.resultadosPesquisa {
     position: absolute;
     top: 50px;
     left: 0;
@@ -321,25 +324,167 @@ h2 {
     z-index: 1000;
     box-shadow: 0 2px 8px #0002;
     font-family: 'Lato', sans-serif;
-    
+
 }
-.resultadosPesquisa img, button{
+
+.resultadosPesquisa img,
+button {
+    margin-right: 25px;
     width: 65px;
     max-height: auto;
     border: none;
     border: none;
     background-color: transparent;
-   
+
 }
 
 .resultLanche0,
 .resultLanche1,
 .resultDrinks,
-.resultPorção{
+.resultPorção {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
-h4{
-font-family: "", sans-serif;
+
+h4 {
+    font-family: "", sans-serif;
+}
+
+@media(min-width:950px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 1870px;
+        max-height: 100%;
+        padding: 0;
+        /* overflow-x: hidden; */
+    }
+
+    .formaTopo {
+        display: none;
+    }
+
+    .topo {
+        width: 100%;
+        max-width: 1870px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1870px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #fundoLanche {
+        width: 35vw;
+        position: absolute;
+        right: 40px;
+        top: 20vw;
+        z-index: 0;
+        transform: rotate(-15deg);
+    }
+
+    #fundoMaracuja {
+        width: 15vw;
+        position: absolute;
+        left: -1vw;
+        top: 50vw;
+        z-index: 0;
+    }
+
+    #fundoNuggets {
+        width: 2vw;
+        position: absolute;
+        right: -1vw;
+        top: 60vw;
+        z-index: 0;
+    }
+
+    #lanches {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #artanais1,
+    #artanais2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Drinks {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #Porções1,
+    #Porções2 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #cards {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 515px;
+        width: 815px;
+        justify-content: space-between;
+    }
+
+    #card {
+        height: 289px;
+        display: flex;
+        justify-content: center;
+        height: 315px;
+        margin: 5px;
+    }
+
+    .chefs1,
+    .chefs2,
+    .chefs3 {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 240px;
+        height: 379px;
+        margin: 0;
+
+    }
+
+    #pesquisa {
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+
+    #campoPesquisa {
+        width: 1179px;
+    }
+    #conteudoModal {
+        position: absolute;
+        top: 37%;
+        left: 10%;
+    }
+
+    #P {
+        width: 600px;
+        height: 160px;
+
+
+    }
 }
